@@ -35,7 +35,7 @@ nav ul li a {
 /* Mise en page de l'accueil */
 
 .home {
-    background: url(images/lake-696098_640.jpeg) fixed;
+    background: url(/images/lake-696098_640.jpeg) fixed;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -124,7 +124,7 @@ nav ul li a {
 /* Mise en page de l'à propos */
 
 .about {
-    background: url(images/wolves-1341881_1920.jpeg) fixed;
+    background: url(/images/wolves-1341881_1920.jpeg) fixed;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
