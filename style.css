@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Mise en page de la navbar */
+
+nav {
+    height: 100px;
+    width: 100vw;
+    background-color: aqua;
+}
+
+nav ul {
+    width: 50%;
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+nav ul li {
+    list-style: none;
+    margin-top: 40px;
+    text-transform: uppercase;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.4em;
+    color: darkslategrey;
+}
+
+
+/* Mise en page de l'accueil */
+
+.home {
+    background: url(images/lake-696098_640.jpeg) fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.home h1 {
+    color: aqua;
+    font-size: 4em;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.home main p {
+    width: 70vw;
+    margin: 40px auto;
+    padding: 10px;
+    border: 3px solid rgb(29, 187, 187);
+    border-radius: 8px;
+    background-color: rgba(70, 70, 70, 0.6);
+    text-align: center;
+    color: aqua;
+}
+
+.home main img {
+    display: block;
+    width: auto;
+    height: 450px;
+    margin: auto;
+}
+
+
+/* Mise en page du portfolio */
+
+.portfolio {
+    background-color: darkslategrey;
+}
+
+.headPortfolio {
+    width: 50vw;
+    margin: auto;
+    color: aqua;
+    text-align: center;
+}
+
+.headPortfolio h1 {
+    font-size: 4em;
+    margin: 30px auto;
+}
+
+.content {
+    width: 94vw;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content article {
+    width: 90%;
+    display: flex;
+    margin: 30px auto;
+    justify-content: space-around;
+    align-items: center;
+    border: 3px solid rgb(29, 187, 187);
+    border-radius: 8px;
+    background-color: rgba(70, 70, 70, 0.6);
+    text-align: center;
+    color: aqua;
+    padding: 15px;
+}
+
+.description {
+    width: 40%;
+}
+
+.description h2 {
+    margin-bottom: 30px;
+}
+
+.content img {
+    display: block;
+    width: 40%;
+}
+
+
+/* Mise en page de l'à propos */
+
+.about {
+    background: url(images/wolves-1341881_1920.jpeg) fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.about h1 {
+    color: darkslategrey;
+    font-size: 4em;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.about main p {
+    width: 50vw;
+    margin: 20px auto;
+    padding: 10px;
+    border: 3px solid rgb(29, 187, 187);
+    border-radius: 8px;
+    background-color: rgba(70, 70, 70, 0.6);
+    text-align: center;
+    color: aqua;
+}
+
+.about main img {
+    display: block;
+    width: auto;
+    height: 23vh;
+    margin: auto;
+}
+
+
+/* footer */
+
+footer {
+    height: 100px;
+    width: 100vw;
+    background-color: aqua;
+    position: static;
+    bottom: 0;
+}
+
+footer p {
+    text-align: center;
+    font-size: 1.1em;
+    padding-top: 35px;
+}
+
+
+/* responsive */
+
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    nav {
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .home main img {
+        width: 90vw;
+        height: auto;
+    }
+    .headPortfolio {
+        width: 90%;
+    }
+    .content article {
+        flex-direction: column;
+    }
+    .description {
+        width: 100%;
+    }
+    .content img {
+        width: 90%;
+        margin: 20px auto;
+    }
+    .about main p {
+        width: 90vw;
+    }
+    .about main img {
+        width: 80vw;
+        height: auto;
+    }
+}
