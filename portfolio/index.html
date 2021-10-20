@@ -7,50 +7,62 @@
 	<title>Portfolio initiation Laruche</title>
 	<link rel="stylesheet" href="/css/style.css">
 </head>
-<body class="portfolio">
-	<head>
-		<nav>
-			<ul>
-				<li><a href="/">Accueil</a></li>
-				<li><a href="/portfolio/">Mon portfolio</a></li>
-				<li><a href="/about/">À propos</a></li>
+<body>
+  <head>
+		<nav class="main-navigation">
+			<ul class="main-navigation__list">
+				<li class="main-navigation__list__item">
+          <a href="/" class="main-navigation__link">Accueil</a>
+        </li>
+				<li class="main-navigation__list__item">
+          <a href="/portfolio/" class="main-navigation__link">Mon portfolio</a>
+        </li>
+				<li class="main-navigation__list__item">
+          <a href="/about/" class="main-navigation__link">À propos</a>
+        </li>
 			</ul>
 		</nav>
 	</head>
-	<main>
-		<section class="headPortfolio">
-			<h1>Portfolio</h1>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente perferendis soluta, necessitatibus numquam sed aut atque ipsa repellendus consequuntur fugiat quos, tenetur commodi sit doloribus quam aspernatur enim totam incidunt!</p>
-		</section>
-		<section class="content">
-			<article>
-				<div class="description">
+	<main class="container">
+		<h1>Portfolio</h1>
+		<p class="mt-2 primary-color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente perferendis soluta, necessitatibus numquam sed aut atque ipsa repellendus consequuntur fugiat quos, tenetur commodi sit doloribus quam aspernatur enim totam incidunt!</p>
+		<section class="content mt-2">
+			<article class="portfolio">
+				<div class="portfolio__description">
 					<h2>Mon premier site</h2>
-					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum iste provident labore adipisci earum atque eius quod praesentium aut quisquam error officiis doloremque culpa tempora, dolor esse quas perspiciatis dignissimos?</p>
+					<p class="mt-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum iste provident labore adipisci earum atque eius quod praesentium aut quisquam error officiis doloremque culpa tempora, dolor esse quas perspiciatis dignissimos?</p>
 				</div>
-				<img src="/images/swan-2077219_640.jpeg">
+        <div class="portfolio__image-container">
+          <img src="/images/swan-2077219_640.jpeg">
+        </div>
 			</article>
-			<article>
-				<img src="/images/pier-407252_640.jpeg">
-				<div class="description">
+			<article class="portfolio">
+				<div class="portfolio__description">
 					<h2>Mon deuxième site</h2>
-					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum iste provident labore adipisci earum atque eius quod praesentium aut quisquam error officiis doloremque culpa tempora, dolor esse quas perspiciatis dignissimos?</p>
+					<p class="mt-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum iste provident labore adipisci earum atque eius quod praesentium aut quisquam error officiis doloremque culpa tempora, dolor esse quas perspiciatis dignissimos?</p>
 				</div>
-			</article>
-			<article>
-				<div class="description">
+        <div class="portfolio__image-container">
+          <img src="/images/pier-407252_640.jpeg">
+        </div>
+      </article>
+			<article class="portfolio">
+				<div class="portfolio__description">
 					<h2>Mon troisième site</h2>
-					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum iste provident labore adipisci earum atque eius quod praesentium aut quisquam error officiis doloremque culpa tempora, dolor esse quas perspiciatis dignissimos?</p>
+					<p class="mt-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum iste provident labore adipisci earum atque eius quod praesentium aut quisquam error officiis doloremque culpa tempora, dolor esse quas perspiciatis dignissimos?</p>
 				</div>
-				<img src="/images/wolves-1341881_1920.jpeg">
-			</article>
-			<article>
-				<img src="/images/lake-696098_640.jpeg">
-				<div class="description">
+        <div class="portfolio__image-container">
+          <img src="/images/wolves-1341881_1920.jpeg">
+        </div>
+      </article>
+			<article class="portfolio">
+				<div class="portfolio__description">
 					<h2>Mon quatrième site</h2>
-					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum iste provident labore adipisci earum atque eius quod praesentium aut quisquam error officiis doloremque culpa tempora, dolor esse quas perspiciatis dignissimos?</p>
+					<p class="mt-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum iste provident labore adipisci earum atque eius quod praesentium aut quisquam error officiis doloremque culpa tempora, dolor esse quas perspiciatis dignissimos?</p>
 				</div>
-			</article>
+        <div class="portfolio__image-container">
+          <img src="/images/lake-696098_640.jpeg">
+        </div>
+      </article>
 		</section>
 	</main>
 	<footer>
