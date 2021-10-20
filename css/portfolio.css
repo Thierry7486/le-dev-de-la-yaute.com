@@ -1,18 +1,18 @@
 /* Mise en page du portfolio */
 
 .portfolio {
-    margin-bottom: 2rem;
-    padding: 1rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
 
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 
-    color: var(--primary-color);
-    background-color: var(--secondary-color--darker);
+  color: var(--primary-color);
+  background-color: var(--secondary-color--darker);
 
-    border: var(--border-width) solid var(--primary-color--darker);
-    border-radius: var(--border-radius);
+  border: var(--border-width) solid var(--primary-color--darker);
+  border-radius: var(--border-radius);
 }
 
 .portfolio {

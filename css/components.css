@@ -9,23 +9,23 @@
 }
 
 .container--home {
-    background-image: url(/images/lake-696098_640.jpeg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  background-image: url(/images/lake-696098_640.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .container--about {
-    padding-left: 10%;
-    padding-right: 10%;
-    background: url(/images/wolves-1341881_1920.jpeg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  padding-left: 10%;
+  padding-right: 10%;
+  background: url(/images/wolves-1341881_1920.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .logo {
-    height: 23vh;
+  height: 23vh;
 }
 
 .main-p {
