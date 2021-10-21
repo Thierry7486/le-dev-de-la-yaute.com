@@ -1,0 +1,15 @@
+- titre: "Mon premier site"
+  photo: "/assets/images/swan-2077219_640.jpeg"
+  description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum iste provident labore adipisci earum atque eius quod praesentium aut quisquam error officiis doloremque culpa tempora, dolor esse quas perspiciatis dignissimos?"
+  
+- titre: "Mon deuxième site"
+  photo: "/assets/images/pier-407252_640.jpeg"
+  description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum iste provident labore adipisci earum atque eius quod praesentium aut quisquam error officiis doloremque culpa tempora, dolor esse quas perspiciatis dignissimos?"
+
+- titre: "Mon troisième site"
+  photo: "/assets/images/wolves-1341881_1920.jpeg"
+  description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum iste provident labore adipisci earum atque eius quod praesentium aut quisquam error officiis doloremque culpa tempora, dolor esse quas perspiciatis dignissimos?"
+
+- titre: "Mon quatrième site"
+  photo: "/assets/images/lake-696098_640.jpeg"
+  description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum iste provident labore adipisci earum atque eius quod praesentium aut quisquam error officiis doloremque culpa tempora, dolor esse quas perspiciatis dignissimos?"

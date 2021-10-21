@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+  </head>
+  <body>
+    <head>
+      <nav class="main-navigation">
+        <ul class="main-navigation__list">
+          <li class="main-navigation__list__item">
+            <a href="{{ "/" | relative_url }}" class="main-navigation__link">Accueil</a>
+          </li>
+          <li class="main-navigation__list__item">
+            <a href="{{ "/portfolio/" | relative_url }}" class="main-navigation__link">Mon portfolio</a>
+          </li>
+          <li class="main-navigation__list__item">
+            <a href="{{ "/about/" | relative_url }}" class="main-navigation__link">À propos</a>
+          </li>
+        </ul>
+      </nav>
+    </head>
+    {{ content }}
+    <footer>
+    <p>&copy Le-Dev-de-la-Yaute</p>
+    </footer>
+  </body>
+</html>

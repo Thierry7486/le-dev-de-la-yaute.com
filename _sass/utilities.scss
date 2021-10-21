@@ -5,11 +5,11 @@
 }
 
 .primary-color {
-  color: var(--primary-color) !important;
+  color: $primary-color !important;
 }
 
 .secondary-color {
-  color: var(--secondary-color) !important;
+  color: $secondary-color !important;
 }
 
 .mt-2 {

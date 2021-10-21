@@ -1,72 +1,22 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio initiation Laruche</title>
-  <link rel="stylesheet" href="/css/style.css">
-</head>
-<body>
-  <head>
-    <nav class="main-navigation">
-      <ul class="main-navigation__list">
-        <li class="main-navigation__list__item">
-          <a href="/" class="main-navigation__link">Accueil</a>
-        </li>
-        <li class="main-navigation__list__item">
-          <a href="/portfolio/" class="main-navigation__link">Mon portfolio</a>
-        </li>
-        <li class="main-navigation__list__item">
-          <a href="/about/" class="main-navigation__link">À propos</a>
-        </li>
-      </ul>
-    </nav>
-  </head>
-  <main class="container">
-    <h1>Portfolio</h1>
-    <p class="mt-2 primary-color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente perferendis soluta, necessitatibus numquam sed aut atque ipsa repellendus consequuntur fugiat quos, tenetur commodi sit doloribus quam aspernatur enim totam incidunt!</p>
-    <section class="content mt-2">
-      <article class="portfolio">
-        <div class="portfolio__description">
-          <h2>Mon premier site</h2>
-          <p class="mt-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum iste provident labore adipisci earum atque eius quod praesentium aut quisquam error officiis doloremque culpa tempora, dolor esse quas perspiciatis dignissimos?</p>
-        </div>
-        <div class="portfolio__image-container">
-          <img src="/images/swan-2077219_640.jpeg">
-        </div>
-      </article>
-      <article class="portfolio">
-        <div class="portfolio__description">
-          <h2>Mon deuxième site</h2>
-          <p class="mt-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum iste provident labore adipisci earum atque eius quod praesentium aut quisquam error officiis doloremque culpa tempora, dolor esse quas perspiciatis dignissimos?</p>
-        </div>
-        <div class="portfolio__image-container">
-          <img src="/images/pier-407252_640.jpeg">
-        </div>
-      </article>
-      <article class="portfolio">
-        <div class="portfolio__description">
-          <h2>Mon troisième site</h2>
-          <p class="mt-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum iste provident labore adipisci earum atque eius quod praesentium aut quisquam error officiis doloremque culpa tempora, dolor esse quas perspiciatis dignissimos?</p>
-        </div>
-        <div class="portfolio__image-container">
-          <img src="/images/wolves-1341881_1920.jpeg">
-        </div>
-      </article>
-      <article class="portfolio">
-        <div class="portfolio__description">
-          <h2>Mon quatrième site</h2>
-          <p class="mt-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum iste provident labore adipisci earum atque eius quod praesentium aut quisquam error officiis doloremque culpa tempora, dolor esse quas perspiciatis dignissimos?</p>
-        </div>
-        <div class="portfolio__image-container">
-          <img src="/images/lake-696098_640.jpeg">
-        </div>
-      </article>
-    </section>
-  </main>
-  <footer>
-    <p>&copy Le-Dev-de-la-Yaute</p>
-  </footer>
-</body>
-</html>
+---
+layout: default
+title: "Portfolio"
+---
+
+<main class="container">
+	<h1>Portfolio</h1>
+	<p class="mt-2 primary-color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente perferendis soluta, necessitatibus numquam sed aut atque ipsa repellendus consequuntur fugiat quos, tenetur commodi sit doloribus quam aspernatur enim totam incidunt!</p>
+	<section class="content mt-2">
+		{% for competence in site.data.competences %}
+		<article class="portfolio">
+			<div class="portfolio__description">
+				<h2>{{ competence.titre }}</h2>
+				<p class="mt-1">{{ competence.description }}</p>
+			</div>
+			<div class="portfolio__image-container">
+				<img src="{{ competence.photo | relative_url }}">
+			</div>
+		</article>
+		{% endfor %}
+	</section>
+</main>

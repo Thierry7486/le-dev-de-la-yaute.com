@@ -1,39 +1,13 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>À propos initiation Laruche</title>
-  <link rel="stylesheet" href="/css/style.css">
-</head>
-<body>
-  <head>
-    <nav class="main-navigation">
-      <ul class="main-navigation__list">
-        <li class="main-navigation__list__item">
-          <a href="/" class="main-navigation__link">Accueil</a>
-        </li>
-        <li class="main-navigation__list__item">
-          <a href="/portfolio/" class="main-navigation__link">Mon portfolio</a>
-        </li>
-        <li class="main-navigation__list__item">
-          <a href="/about/" class="main-navigation__link">À propos</a>
-        </li>
-      </ul>
-    </nav>
-  </head>
-  <main class="container container--about">
-    <h1 class="secondary-color">À propos</h1>
-    <p class="main-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente perferendis soluta, necessitatibus numquam sed aut atque ipsa repellendus consequuntur fugiat quos, tenetur commodi sit doloribus quam aspernatur enim totam incidunt!</p>
-    <img class="mt-2 logo" src="/images/Thierry.gif" alt="Thierry - logo">
-    <p class="main-p mt-1">Je m'appelle Thierry Malherbe</p>
-    <p class="main-p mt-1">Contactez moi</p>
-    <p class="main-p mt-1">par mail via&nbsp;: <a href="mailto:thierrymalherbe@live.fr">thierrymalherbe@live.fr</a></p>
-    <p class="main-p mt-1">ou au téléphone <a href="tel:+33679451872">en cliquant ici</a></p>
-  </main>
-  <footer>
-    <p>&copy; Le-Dev-de-la-Yaute</p>
-  </footer>
-</body>
-</html>
+---
+layout: default
+title: À propos
+---
+<main class="container container--about">
+	<h1 class="secondary-color">À propos</h1>
+	<p class="main-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente perferendis soluta, necessitatibus numquam sed aut atque ipsa repellendus consequuntur fugiat quos, tenetur commodi sit doloribus quam aspernatur enim totam incidunt!</p>
+	<img class="mt-2 logo" src="{{ "/assets/images/Thierry.gif" | relative_url }}" alt="Thierry - logo">
+	<p class="main-p mt-1">Je m'appelle Thierry Malherbe</p>
+	<p class="main-p mt-1">Contactez moi</p>
+	<p class="main-p mt-1">par mail via&nbsp;: <a href="mailto:thierrymalherbe@live.fr">thierrymalherbe@live.fr</a></p>
+	<p class="main-p mt-1">ou au téléphone <a href="tel:+33679451872">en cliquant ici</a></p>
+</main>

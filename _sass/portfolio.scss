@@ -8,11 +8,11 @@
   justify-content: space-around;
   align-items: center;
 
-  color: var(--primary-color);
-  background-color: var(--secondary-color--darker);
+  color: $primary-color;
+  background-color: $secondary-color--darker;
 
-  border: var(--border-width) solid var(--primary-color--darker);
-  border-radius: var(--border-radius);
+  border: $border-width solid $primary-color--darker;
+  border-radius: $border-radius;
 }
 
 .portfolio {

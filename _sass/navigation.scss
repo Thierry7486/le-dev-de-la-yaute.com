@@ -6,7 +6,7 @@
   padding-top: 2rem;
   padding-bottom: 2rem;
 
-  background-color: var(--primary-color);
+  background-color: $primary-color;
 }
 
 .main-navigation__list {
@@ -31,7 +31,7 @@
 .main-navigation__link {
   font-size: 1.4rem;
 
-  color: var(--secondary-color);
+  color: $secondary-color;
   text-decoration: none;
 }
 

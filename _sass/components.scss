@@ -5,11 +5,11 @@
 
   text-align: center;
 
-  background-color: var(--secondary-color);
+  background-color: $secondary-color;
 }
 
 .container--home {
-  background-image: url(/images/lake-696098_640.jpeg);
+  background-image: url('#{$baseurl}/assets/images/lake-696098_640.jpeg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -18,7 +18,7 @@
 .container--about {
   padding-left: 10%;
   padding-right: 10%;
-  background: url(/images/wolves-1341881_1920.jpeg);
+  background: url('#{$baseurl}/assets/images/wolves-1341881_1920.jpeg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -34,9 +34,9 @@
 
   text-align: center;
 
-  border: var(--border-width) solid var(--primary-color--darker);
-  border-radius: var(--border-radius);
+  border: $border-width solid $primary-color--darker;
+  border-radius: $border-radius;
 
-  color: var(--primary-color);
-  background-color: var(--secondary-color--darker);
+  color: $primary-color;
+  background-color: $secondary-color--darker;
 }

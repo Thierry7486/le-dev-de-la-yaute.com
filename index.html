@@ -1,36 +1,11 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Accueil initiation Laruche</title>
-  <link rel="stylesheet" href="/css/style.css">
-</head>
-<body>
-  <head>
-    <nav class="main-navigation">
-      <ul class="main-navigation__list">
-        <li class="main-navigation__list__item">
-          <a href="/" class="main-navigation__link">Accueil</a>
-        </li>
-        <li class="main-navigation__list__item">
-          <a href="/portfolio/" class="main-navigation__link">Mon portfolio</a>
-        </li>
-        <li class="main-navigation__list__item">
-          <a href="/about/" class="main-navigation__link">À propos</a>
-        </li>
-      </ul>
-    </nav>
-  </head>
-  <main class="container container--home">
-    <h1>Accueil</h1>
-    <p class="main-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente perferendis soluta, necessitatibus numquam sed aut atque ipsa repellendus consequuntur fugiat quos, tenetur commodi sit doloribus quam aspernatur enim totam incidunt!</p>
-    <img class="mt-2 img-responsive" src="/images/pier-407252_640.jpeg">
-    <p class="main-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum labore vitae possimus minus nemo ipsum soluta maxime inventore consequuntur, saepe incidunt voluptatem repellat sed harum unde natus tempora facilis doloremque.</p>
-  </main>
-  <footer>
-    <p>&copy Le-Dev-de-la-Yaute</p>
-  </footer>
-</body>
-</html>
+---
+layout: default
+title: "Accueil"
+---
+
+<main class="container container--home">
+	<h1>Accueil</h1>
+	<p class="main-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente perferendis soluta, necessitatibus numquam sed aut atque ipsa repellendus consequuntur fugiat quos, tenetur commodi sit doloribus quam aspernatur enim totam incidunt!</p>
+	<img class="mt-2 img-responsive" src="{{ "/assets/images/pier-407252_640.jpeg" | relative_url }}">
+	<p class="main-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum labore vitae possimus minus nemo ipsum soluta maxime inventore consequuntur, saepe incidunt voluptatem repellat sed harum unde natus tempora facilis doloremque.</p>
+</main>
