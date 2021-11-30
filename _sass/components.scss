@@ -1,0 +1,42 @@
+/* Components */
+
+.container {
+  padding: 2rem 15%;
+
+  text-align: center;
+
+  background-color: $secondary-color;
+}
+
+.container--home {
+  background-image: url('#{$baseurl}/assets/images/lake-696098_640.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.container--about {
+  padding-left: 10%;
+  padding-right: 10%;
+  background: url('#{$baseurl}/assets/images/wolves-1341881_1920.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.logo {
+  height: 23vh;
+}
+
+.main-p {
+  margin-top: 2.5rem;
+  padding: 0.6rem;
+
+  text-align: center;
+
+  border: $border-width solid $primary-color--darker;
+  border-radius: $border-radius;
+
+  color: $primary-color;
+  background-color: $secondary-color--darker;
+}

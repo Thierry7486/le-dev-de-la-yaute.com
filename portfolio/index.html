@@ -1,0 +1,25 @@
+---
+layout: default
+title: "Portfolio"
+---
+
+<main class="container">
+	<h1>Portfolio</h1>
+	<p class="mt-2 primary-color">Vous trouverez ici quelques projets auquel j'ai participé</p>
+	<section class="content mt-2">
+		{% for competence in site.data.competences %}
+		<article class="portfolio">
+			<div class="portfolio__description">
+				<h2>{{ competence.titre }}</h2>
+				<p class="mt-1">{{ competence.description }}</p>
+			</div>
+			<div class="portfolio__image-container">
+				<a href="{{ competence.lien }}" target="_blank">
+					<img src="{{ competence.photo | relative_url }}">
+					<span>{{ competence.lien }}</span>
+				</a>
+			</div>
+		</article>
+		{% endfor %}
+	</section>
+</main>

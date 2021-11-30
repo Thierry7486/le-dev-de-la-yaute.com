@@ -1,0 +1,14 @@
+- titre: "Chefs à domicile"
+  photo: "/assets/images/cado.png"
+  description: "J'ai fait ce site en grande partie comme travail de groupe de fin de formation. J'ai utilisé Symfony qui est un framework PHP très puissant."
+  lien: https://chef-a-domicile.store
+  
+- titre: "Aperooo.ch"
+  photo: "/assets/images/pier-407252_640.jpeg"
+  description: "Cette application est un projet effectué lors de mon stage chez Laruche.io. Le but est de permettre d'organiser des apéritifs et d'accepter ou non d'autres utilisateurs intéressés par l'évènement. Ce projet a été fait grâce à Laravel, un autre framework PHP."
+  lien: https://aperooo.le-dev-de-la-yaute.com
+
+- titre: "Hybrid-concept.ch"
+  photo: "/assets/images/hybrid-concept.png"
+  description: "Projet effectué pour un client lors de mon stage chez Laruche.io."
+  lien: https://hybrid-concept.ch
