@@ -5,7 +5,7 @@ title: "Portfolio"
 
 <main class="container">
 	<h1>Portfolio</h1>
-	<p class="mt-2 primary-color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente perferendis soluta, necessitatibus numquam sed aut atque ipsa repellendus consequuntur fugiat quos, tenetur commodi sit doloribus quam aspernatur enim totam incidunt!</p>
+	<p class="mt-2 primary-color">Vous trouverez ici quelques projets auquel j'ai participé</p>
 	<section class="content mt-2">
 		{% for competence in site.data.competences %}
 		<article class="portfolio">
@@ -14,7 +14,10 @@ title: "Portfolio"
 				<p class="mt-1">{{ competence.description }}</p>
 			</div>
 			<div class="portfolio__image-container">
-				<img src="{{ competence.photo | relative_url }}">
+				<a href="{{ competence.lien }}" target="_blank">
+					<img src="{{ competence.photo | relative_url }}">
+					<span>{{ competence.lien }}</span>
+				</a>
 			</div>
 		</article>
 		{% endfor %}

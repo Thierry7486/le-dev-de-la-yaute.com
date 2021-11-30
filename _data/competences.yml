@@ -1,15 +1,14 @@
-- titre: "Mon premier site"
-  photo: "/assets/images/swan-2077219_640.jpeg"
-  description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum iste provident labore adipisci earum atque eius quod praesentium aut quisquam error officiis doloremque culpa tempora, dolor esse quas perspiciatis dignissimos?"
+- titre: "Chefs à domicile"
+  photo: "/assets/images/cado.png"
+  description: "J'ai fait ce site en grande partie comme travail de groupe de fin de formation. J'ai utilisé Symfony qui est un framework PHP très puissant."
+  lien: https://chef-a-domicile.store
   
-- titre: "Mon deuxième site"
+- titre: "Aperooo.ch"
   photo: "/assets/images/pier-407252_640.jpeg"
-  description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum iste provident labore adipisci earum atque eius quod praesentium aut quisquam error officiis doloremque culpa tempora, dolor esse quas perspiciatis dignissimos?"
+  description: "Cette application est un projet effectué lors de mon stage chez Laruche.io. Le but est de permettre d'organiser des apéritifs et d'accepter ou non d'autres utilisateurs intéressés par l'évènement. Ce projet a été fait grâce à Laravel, un autre framework PHP."
+  lien: https://aperooo.le-dev-de-la-yaute.com
 
-- titre: "Mon troisième site"
-  photo: "/assets/images/wolves-1341881_1920.jpeg"
-  description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum iste provident labore adipisci earum atque eius quod praesentium aut quisquam error officiis doloremque culpa tempora, dolor esse quas perspiciatis dignissimos?"
-
-- titre: "Mon quatrième site"
-  photo: "/assets/images/lake-696098_640.jpeg"
-  description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum iste provident labore adipisci earum atque eius quod praesentium aut quisquam error officiis doloremque culpa tempora, dolor esse quas perspiciatis dignissimos?"
+- titre: "Hybrid-concept.ch"
+  photo: "/assets/images/hybrid-concept.png"
+  description: "Projet effectué pour un client lors de mon stage chez Laruche.io."
+  lien: https://hybrid-concept.ch
