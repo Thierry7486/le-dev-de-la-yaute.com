@@ -12,3 +12,8 @@
   photo: "/assets/images/hybrid-concept.png"
   description: "Projet effectué pour un client lors de mon stage chez Laruche.io."
   lien: https://hybrid-concept.ch
+
+- titre: "Les Enfants de Lucinges"
+  photo: "/assets/images/swan-2077219_640.jpeg"
+  description: "Site dédié aux enfants de Lucinges"
+  lien: https://enfantsdelucinges.com
